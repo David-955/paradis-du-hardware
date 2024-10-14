@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/paradis.css">
+    <title>Paradis du hardware</title>
+</head>
+<body>
+    <nav class="p-1 m-1 bg-primary d-flex justify-content-between">
+        <!-- Logo généré par IA -->
+        <img src="img/logo-transparent-png.png" alt="Logo de l'entreprise">
+
+        <section class="form-group d-flex p-5">
+            <label for="search"></label>
+            <input type="search" class="form-control" id="search" aria-describedby="search"
+                placeholder="Votre recherche">
+            <button type="submit" class=" text-white btn btn-primary btn-block">Rechercher</button>
+        </section>
+        
+        <ul class="list-unstyled my-4 mx-4">
+            <li>
+                <a class="nav-link text-white fs-5" href="#">Accueil</a>
+            </li>
+            <li>
+                <a class="nav-link text-white fs-5" href="#">Mon compte</a>
+            </li>
+            <li>
+                <a class="nav-link text-white fs-5" href="#">Contactez-nous</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header aria-label="Image de bureau avec une tour de bureau gaming">
+        <h1 class="p-4 text-white text-center bg-image " style="background-image: url('img/header.jpg'); "><br><br> Bienvenue au paradis du hardware<br>Trouvez la config de vos rêves</h1>
+    </header>
+
+    <main>
+        <section class="d-flex justify-content-between" style=" gap : 50px;">
+            <article class="text-center">
+                <img src="img/pcgamer.jpg" alt="PC de bureau gaming" style="width: 100%;">
+                <h2 class="text-center">PC de bureau gaming</h2>
+                <p>Trouvez le PC gaming de vos rêves ici avec des composants de qualité pour différents budgets.</p>
+            </article>
+            <article  class="text-center">
+                <img src="img/pcportable.jpg" alt="PC portable gaming" style="width: 100%;">
+                <h2 class="text-center">PC portable gaming</h2>
+                <p>Trouvez le PC portable gaming de vos rêves ici. MSI, Asus, Lenovo, Dell, etc... Tout (ou presque) est trouvable ici.</p>
+            </article>
+            <article  class="text-center">
+                <img src="img/composants.jpg" alt="Composants informatiques" style="width: 85%;">
+                <h2 class="text-center">Composants informatiques</h2>
+                <p class="text-center">Envie de choisir soi-même ses composants ? Pas de souci ! Nos conseillers sont également disponible pour vous aider via le formulaire en bas de page.</p>
+            </article>
+        </section>
+
+        <section class="bg-primary">
+            <h2 class="m-5 p-3 text-light">Besoin d'aide ?</h2>
+
+            <p class="mx-5 text-light">Nos conseillers sont disponible du lundi au vendredi, de 8h à 20h. N'hésitez pas à remplir le formulaire ci-dessous :</p>
+
+            <article class="form-group" id="formhelp">
+                <label class="text-light m-3" for="nom">Entrez votre Nom :</label>
+                <input type="nom" class="form-control" id="nom" aria-describedby="name"
+                placeholder="Votre Nom">
+                <label class="text-light m-3" for="prenom">Entrez votre Prénom :</label>
+                <input type="prenom" class="form-control" id="prenom" aria-describedby="firstname"
+                placeholder="Votre Prénom">
+                <label class="text-light m-3" for="demande">Entrez votre demande :</label>
+                <input type="demande" class="form-control pb-5 " id="demande" aria-describedby="demand"
+                placeholder="Votre demande">
+                
+                <button type="submit" class="m-3 m text-white btn btn-primary btn-block">Soumettre</button>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="p-1 m-1 bg-primary">
+        <section class="m-4 d-flex justify-content-between">
+            <p ><a class="text-light" href="#">Mentions légales</a></p>
+            <p><a class="text-light" href="#">Contact</a></p>
+            <p><a class="text-light" href="#">À propos de nous</a></p>
+        </section>
+        <p class="text-center text-light">© Copyright 2024, Tous droits réservés</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

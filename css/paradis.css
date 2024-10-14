@@ -1,0 +1,77 @@
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 40vh;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px red;
+}
+
+nav img {
+    width: 15vh;
+}
+
+img {
+    width: 40vh;
+}
+
+.bg-primary {
+    background-color: #b81f1f !important;
+}
+
+.btn-primary {
+    background-color: #333333 !important;
+    border-color: #333333;
+}
+
+nav section {
+    /* Longueur barre de recherche */
+    width: 50%;
+}
+
+#formhelp {
+    /* Formulaire qui prend 50% de longueur de la fenêtre et un léger décalage vers la droite */
+    width: 50%;
+    margin-left: 3%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    main section {
+        /* chaque article à la ligne en passant en version mobile */
+        display: wrap;
+        flex-wrap: wrap;
+    } 
+
+    nav {
+        display: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    nav section {
+        /* Etirement barre de recherche */
+        width: 100%;
+    }
+
+    nav img {
+        /* Centrage logo du site */
+        margin: 0 auto;
+    }
+
+    nav ul {
+        /* Centrage des textes de la nav */
+        width: 100%;
+    }
+
+    #formhelp {
+        /* Formulaire qui prend 100% de longueur de la fenêtre */
+        width: 100%;
+        margin-left: 0%;
+    }
+}
